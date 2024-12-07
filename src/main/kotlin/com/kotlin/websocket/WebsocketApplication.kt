@@ -1,11 +1,11 @@
-package com.kotlin.fastcamkotlinwebsocket
+package com.kotlin.websocket
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FastcamKotlinWebsocketApplication
+class WebsocketApplication
 
 fun main(args: Array<String>) {
-    runApplication<FastcamKotlinWebsocketApplication>(*args)
+    runApplication<WebsocketApplication>(*args)
 }
